@@ -1,0 +1,25 @@
+/*图片展示*/
+#Marquee_x{
+  width:1200px;
+	height:240px;
+  overflow:hidden;
+  position:relative;
+}
+#Marquee_x ul li ,#Marquee_x ul li div{
+	             float:left;
+							overflow:hidden;
+	 } /* 横向滚动必须让所有li左浮动 */
+#Marquee_x ul li div a{
+	text-decoration:none;
+}
+#Marquee_x ul li div a:hover{
+	text-decoration:none;
+}
+
+
+
+
+
+
+/* CSS Document */
+

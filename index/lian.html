@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/zhuanye.css"/>
+
+<title>无标题文档</title>
+<script>
+
+	function big()
+	{
+		$("#Marquee_x img").mouseover(
+		function(){
+			$(this).animate(
+			{"width":"200px","height":"200px","position":"absolute","z-index":9999,"float":"none"}
+			
+			);	
+			
+		}
+		
+		);
+		
+	}
+	function small()
+	{
+				$("#Marquee_x img").mouseout(
+			function(){
+				
+					$(this).animate({"width":"160px","height":"160px","position":"static",
+						"z-index":0,
+					});
+				}
+		
+		)
+		
+	}
+</script>
+<!--------/图片展示放大--------->
+
+</script>
+</head>
+
+<body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/lian.js"></script>
+
+<div id="Marquee_x">
+              <ul>
+                 <li>
+                    <div><a href="#" target="_blank"><img src="../image/image/1111.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/1112.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/1113.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/1114.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/1115.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/1116.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/1118.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/1119.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/11110.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/11111.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/11112.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+                    <div><a href="#" target="_blank"><img src="../image/image/11113.jpg" width="160" height="160" onmouseover="big();"  onmouseout="small();"/></a></div>
+
+
+                 </li>
+              </ul>
+              </div>
+ 
+
+</body>
+</html>

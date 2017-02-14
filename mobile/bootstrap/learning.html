@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-widrh,initial-scale=1.0,maxium-
+scale=1.0,minimum-scale=1.0,user-scalable=no" /><title>content</title>
+<link rel="shortcut icon" href="image/logo.png">
+<link rel="stylesheet" href="bootstrap.css" />
+<link rel="stylesheet" href="learning.css" />
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</head>
+
+<body style="background:#396;">
+<header class="row">
+	    <div class="col-xs-6 col-sm-2 col-md-2">
+		<img src="image/logo.png"  class="img-circle img-responsive" style="width:90px;height:90px;"/>
+    <div class="col-md-12 m"><p>小&nbsp;&nbsp;&nbsp;&nbsp;Mua~</p></div>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-sm-offset-4 col-md-4 col-md-offset-6">
+         <form role="form" style="margin-top:20px;" >
+              <input type="text" style="width:60%;"  id="name" 
+              onFocus="this.value='';" onBlur="if(this.value==''){this.value='search';}">
+           <button type="submit" class="btn btn-default">搜索</button>
+        </form>
+
+    </div>
+</header>
+<nav class="row" style="background:#000;">
+	<ul class="nav navbar-nav nav_ul">
+    	<li><a href="boot.html">PROTL</a></li>
+        <li><a href="learning.html" >LEARNING</a></li>
+        <li><a href="love.html" >LOVER</a></li>
+        <li><a href="content.html">CONTACT</a></li>
+    </ul>
+</nav>
+<article class="row">
+	<div style="background:#000;height:60px;color:#FFF;text-align: center;color:#FFF;font-size: 34px;
+    margin-top:10px;">My Major</div>
+    
+<ul id="myTab" class="nav nav-tabs major">
+   <li class="active">
+      <a href="#home" data-toggle="tab">
+         数学建模
+      </a>
+   </li>
+   <li><a href="#ios" data-toggle="tab">概率论与数理统计</a></li>
+   <li class="dropdown">
+      <a href="#" id="myTabDrop1" class="dropdown-toggle" 
+         data-toggle="dropdown">考研必考 
+         <b class="caret"></b>
+      </a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+         <li class="ll"><a href="#jmeter" tabindex="-1" data-toggle="tab">数学分析选讲</a></li>
+         <li class="ll"><a href="#ejb" tabindex="-1" data-toggle="tab">高等代数选讲</a></li>
+      </ul>
+   </li>
+</ul>
+<div id="myTabContent" class="tab-content wen">
+   <div class="tab-pane fade in active" id="home">
+		<p>　　　数学建模就是通过计算得到结
+                果来解释实际问题，并接受实际的
+                检验，建立数学模型的全过程。当
+                需要从定量的角度分析和研究一个
+          	    实际　　　问题时，人们就要在深入调查
+                研究了解假设分析表达建立模型。</p>
+   </div>
+   <div class="tab-pane fade" id="ios">
+		<p>　　　《概率统计》是高等院校理工
+              类、经管类的重要课程。在考研数
+                学中的比重大约占百分之二十二左
+               右。内容包括：概率论的基本概念
+          	    随机　　　　变量及其概率分布、数字特征
+              大数定律与中心极限定理等内容。</p>
+   </div>
+   <div class="tab-pane fade" id="jmeter">
+		<p>　　　本书是为报考数学类专业硕士
+                研究生的本科学生编写的。按照数
+                学分析的数学大纲要求，强调学生
+                的综合能力，表现在是对一个具体
+          	    学科　　　的数学理论的归纳能力，二是
+                灵活运用相关理论和方法解决数学问题。</p>
+   </div>
+   <div class="tab-pane fade" id="ejb">
+		<p>　　　本书是由课堂讲义整理而成，
+                作为讲义已经使用过五年。内容共
+                分九章，包括多项式、行列式，线
+                性方程组、矩阵、二次型、线性空间、　
+                　　　线性变换、人一矩阵、欧几里
+                得空间等知识。</p>
+   </div>
+</div>
+</article>
+<div style="background:#000;height:60px;color:#FFF;text-align: center;color:#FFF;font-size: 34px;
+    margin-top:10px;">My hobbies</div>
+<div class="container">
+
+  <div class="row">
+    <nav class="col-sm-3 love" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">爱文字</a></li>
+        <li><a href="#section2">爱画画</a></li>
+        <li><a href="#section3">爱摄影</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">爱编程 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#section41">喜欢设计</a></li>
+            <li><a href="#section42">喜欢代码</a></li>                     
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="col-sm-9 ai">
+      <div id="section1">    
+        <h1>爱文字</h1>
+        <p>　　我喜欢文字，特别是那种唯美的语言，看了之后很想把它收藏下来，
+        女人都是感性的，我当然也不会例外，感觉自己已然成为了文字控，
+        那些触动人心的文字，最最是内心深处的不及之处。</p>
+      </div>
+      <div id="section2"> 
+        <h1>爱画画</h1>
+        <p>　　这里的画画可不是说我会画那些素描呀，油画呀，我呢，是挺想学这些的。
+        喜欢这种画的感觉，但是我真的不会画，可能天生没有天赋，恩……其实呀，我
+        有一个哥呀，小时候他画的荷叶呀，什么的可好看了，我到今天都记得。
+        希望有机会了，我还是好好地练练。</p>
+      </div>        
+      <div id="section3">         
+        <h1>爱摄影</h1>
+        <p>　　镜头是记录那一瞬间的永恒，女生真的很爱自拍的，超级爱。
+        每次看到一些人拿着相机到处走走，我的内心就很狂热，很想自己
+        也能够这里闯闯，那里逛逛，然后看看风景，了解文化，
+        拍拍暖情，这些都是在我将来的规划中，很想这一天可以
+        更近一些。</p>
+      </div>
+      <div id="section41">         
+        <h1>喜欢设计</h1>
+        <p>　　这一年学习了web开发，我很喜欢这种前端页面的设计和后端的那些代码，
+        喜欢网页页面的设计，想让每一个地方都足够的完美。</p>
+      </div>      
+      <div id="section42">         
+        <h1>喜欢代码</h1>
+        <p>　　我喜欢那种写代码的感觉，不管是有bug还是顺利完成我都喜欢，更喜欢
+        那种满足的感觉。很高兴这段时间里我们的相处，还有一年就要毕业了，但愿
+        我们每一个人都能够满怀欣喜的去拥抱未来。</p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="row">
+	<div class="col-md-12"><p>小&nbsp;&nbsp;&nbsp;&nbsp;Mua~所有</p></div>
+</footer>
+
+</body>
+</html>

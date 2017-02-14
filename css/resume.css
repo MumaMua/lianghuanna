@@ -1,0 +1,264 @@
+/* CSS Document */
+body{
+  padding:0;
+  margin:0;
+  font-size:14px;
+  width:1200px;
+  height:1243px;
+  background:white;
+  margin:0 auto;
+}
+p,li,ul,ol,h1,h2,h3,h4,h5,h6,div{
+  padding:0;
+  margin:0;
+}
+/***********返回顶部代码*********/
+.tbox {
+     width:40px;
+    float: right;
+    position: fixed;
+    right: 4px;
+    bottom: 15px;
+	
+	  text-align: center;
+	
+}
+.tbox a{
+	font-size:30px;
+	color: white;
+}
+#music_bg{
+	float:right;
+	margin-top:18px;
+}
+/***********返回顶部代码*********/
+
+ul li{
+  list-style: none;
+
+}
+.main{
+	}
+.i_top{
+	background:#adf5bc;
+	height:150px;
+}
+.top{
+  width:1200px;
+ height:70px;
+   background:#adf5bc;
+  margin:0 auto;
+  margin-top:-13px;
+}
+
+.logo{
+	position:fixed;
+	padding:0px;
+	width:60px;
+	height:60px;
+	 position: fixed;
+	z-index: 3000;
+}
+.biaoti{
+width:600px;height:65px;margin: 0 auto;
+}
+.{
+	margin:7.5px -15px
+}
+/*.daohang ul{
+	
+}
+.daohang ul li{
+	float:left;
+	 line-height:60px;
+	margin-left:40px;
+}
+.daohang ul li a{
+	font-size:20px;
+	font-family: 宋体;
+	color:#000;
+	text-decoration: none;
+}
+.daohang ul li:hover{
+	backFground:#f4f4f4;
+
+}*/
+#sl{
+  background:green;
+  width:30px;
+  height: 30px;
+  border:0;
+  color:yellow;
+  font-size: bold;
+  border-radius:50%;
+}
+
+.daohang{
+  width:1200px;
+  height:63px;
+ /* border:solid f7d9e5;*/
+  
+}
+.daohang ul{
+	width:1200px;
+	margin-left:1px;
+	 background:#eca1bf;
+	margin-top:10px;
+}
+.daohang ul li{
+ display:block;
+  float:left;
+  width:171px;
+  height:77px;
+  background:#eca1bf;
+	text-decoration: none;
+  margin:0px;
+}
+
+.daohang ul li a{
+   display:block;
+  font-size:20px;
+   width:170px;
+  height:77px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 77px;
+  font-family:宋体;
+	color:#000;
+}
+
+.daohang ul li:hover {
+	background:#eca1bf;
+	width:160px;
+	height:77px;
+	text-align:center;
+	margin:0px 5px 5px;
+	border-radius: 3px;
+	background:rgba(0,0,0,0.3);
+}
+.weizhi{
+	position:absolute;
+	margin-top:-10px;
+	color:#000;
+	font-size:18px;
+	margin-left:50px;
+}
+
+.biaoti{
+width:600px;height:65px;margin: 0 auto;
+}
+.per{
+	width:1200px;
+	background:#00cd9b;/*df9a63*/
+	margin:3px auto;
+}
+.per_1{
+	height:100px;
+	background:url(../image/resume.jpg) no-repeat;
+	margin-bottom:5px;
+	}
+.resume{
+	border:solid 1px;
+	width:900px;
+	margin:0 auto;
+}
+h2{
+	margin-left:60px;
+}
+.banner{
+	width:900px;
+}
+.banner ul{
+width:900px;
+	margin:0 auto;
+}
+.banner li{
+	margin:10px;
+	border:solid 1px;
+  height:30px;
+	padding:1px;
+	margin-left:10px;
+	line-height: 30px;
+}
+.banner ul a{
+	height:30px;
+	margin-left:60px;
+	font-size:16px;
+	font-weight: bold;
+}
+.banner ul span{
+	margin-left:160px;
+	font-size:16px;
+	font-weight: bold;
+}
+.header{
+	background:#adf5bc;
+	height:147px;}
+	
+.per_self,.per_sion ul{
+	width:900px;
+	margin:0 auto;
+}
+.per_self ul li{
+	margin:10px;
+	height:30px;
+	margin-left:10px;
+	font-size:16px;
+	border:solid 1px;
+  height:30px;
+	padding:1px;
+	line-height: 30px;
+}
+.per_self ul li a{
+	height:30px;
+	margin-left:60px;
+	font-size:16px;
+	font-weight: bold;
+}
+.per_sion ul li{
+	margin:10px;
+	height:30px;
+	margin-left:10px;
+	font-size:16px;
+	border:solid 1px;
+  height:30px;
+	padding:1px;
+	line-height: 30px;
+}
+.per_sion ul li a{
+	margin-left:60px;
+	font-weight: bold;
+}
+.per_just ul{
+	width:900px;
+	margin:0 auto;
+}
+.per_just ul li{
+	margin:10px;
+	height:30px;
+	margin-left:10px;
+	font-size:16px;
+	border:solid 1px;
+  height:30px;
+	padding:1px;
+	line-height: 30px;
+}
+.per_just ul li a{
+	margin-left:60px;
+	font-weight: bold;
+}
+.banquan{
+	width:1200px;
+	height:90px;
+	margin:0 auto;
+	background:#999;
+	position: absolute;
+	margin-top:3px;
+}
+.banquan a{
+	line-height:90px;
+	padding-left:400px;
+	font-size:20px;
+	font-family:宋体;
+}
+

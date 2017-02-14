@@ -1,0 +1,345 @@
+/* CSS Document */
+body{
+   /* helvetica,verdana,san-serif无衬线字体*/
+ -webkit-text-size-adjust:none;
+font:400 14px/1.5 helvetica,verdana,san-serif;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+#main{
+  width:98%;
+  margin:0 auto;
+   font-family: 宋体;
+}
+#header{
+  background:lawngreen;
+  width:100%;
+  margin:0 auto;
+  border-radius: 8px;
+  height:70px;
+  font-family: 宋体;
+  line-height: 70px;
+  margin-bottom: 18px;
+  margin-top:10px;
+}
+#header h1{
+    margin-left: 3%;
+}
+#left{
+  float: left;
+  width:20%;
+  background:url(image/002.jpg) -600px  -40px no-repeat;
+  border-radius: 8px;
+  position: relative;
+  -webkit-box-shadow:  0 1px 0 rgba(255,255,255,.3), 4px 4px 4px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.3), 4px 4px 4px rgba(0,0,0,.4);
+	box-shadow: 0 1px 0 rgba(255,255,255,.3), 4px 4px 4px rgba(0,0,0,.4);
+}
+#left h3{
+  margin-left:15%;
+  margin-top:8%;
+   color:black;
+}
+#left ul{
+    margin-bottom:4%;
+}
+#left li{
+  list-style: none;
+  color:black;
+  margin-left:34%;
+  line-height: 30px;
+  height: 35px;
+}
+#left li a{
+ text-decoration: none;
+  color:lawngreen;
+  font-weight:bold;
+}
+#mid{
+  width:55%;
+  background: lightgreen;
+  float: left;
+   margin-left:3%;
+   border-radius: 8px;
+  margin-bottom: 10px;
+}
+#mid section{
+  width:98%;
+  margin:0 auto;  
+  margin-bottom:30px;
+}
+#mid h3{
+  margin-top:10px;
+  margin-bottom:15px;
+  margin-left:2%;
+}
+p{
+  font-family: 宋体;
+}
+#mid p{
+  line-height: 2;
+  margin-left:2%;
+}
+#mid_2{
+  border-radius: 8px;
+    background: pink;
+}
+#mid_2 h3{
+  padding-top:30px;
+  height: 30px;
+  }
+#mid_2 p{
+  padding-bottom: 20px;
+}
+#mid_3 h3{
+  text-align: center;
+}
+#mid_3 a{
+  color:#f4f4f4;
+}
+#mid_3 img{
+  width:29%;
+  float:left;
+  margin:5%;
+}
+#mid_3 p{
+margin-top:10px;
+  padding:1%;
+}
+#mid_3 h4{
+  margin-left:30%;
+  color:green;
+}
+#mid_last h3{
+  text-align: center;
+}
+#mid_last a{
+  color:#f4f4f4;
+}
+#mid_last p{
+margin-top:10px;
+  padding:1%;
+}
+#mid_last img{
+  width:35%;
+  float:left;
+  margin:0% 5% 5% 5%;
+  
+}
+#mid_last h4{
+  margin-left:30%;
+  color:green;
+}
+#right{
+  float:left;
+  width:19%;
+   margin-left:3%;
+   border-radius: 8px;
+  background: lightgreen;
+  webkit-box-shadow:  0 1px 0 rgba(255,255,255,.3), 4px 4px 4px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.3), 4px 4px 4px rgba(0,0,0,.4);
+	box-shadow: 0 1px 0 rgba(255,255,255,.3), 4px 4px 4px rgba(0,0,0,.4);
+}
+#right_r{
+  padding-bottom:10%;
+  }
+#right_r h3{
+  margin:10%;
+}
+#right a{
+  margin:0 10%;
+  color:#f4f4f4;
+}
+#right p{
+  margin:3% 10%;
+}
+#right_r h4{
+  margin:0 10%;
+}
+#footer{
+  clear:both;
+  width:100%;
+  background:green;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+ border-radius: 8px;
+}
+@media only screen and (max-width:900px){
+  #left{
+    width:30%;
+  }
+  #mid{
+    width:68%;
+    margin-left:2%;
+  }
+  #right{
+    float:none;
+    overflow: hidden;
+    width:100%;
+     margin:0 auto;
+    margin-bottom: 10px;
+    background:lightgreen;
+  }
+#right_r{
+  overflow: hidden;
+  padding-bottom:3%;
+  }
+#right_r h3{
+  margin:3% 30%;;
+}
+#right a{
+  margin:1% 30%;
+  color:#f4f4f4;
+}
+#right p{
+margin:2% 30%;
+}
+#right_r h4{
+  margin:0 30%;
+
+  }
+  #mid #ibanner{
+     height: 357px;
+  }
+  #ibanner #ibanner_pic img{
+    height: 357px;
+  }
+}
+@media only screen and (max-width:540px){
+  #left{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  #mid{
+    width:100%;
+    margin:0 auto;
+    margin-bottom: 10px;
+  }
+  #mid #ibanner{
+     height: 300px;
+  }
+  #ibanner #ibanner_pic img{
+    height: 300px;
+  }
+}
+@media only screen and (max-width:360px){
+  #left{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  #mid{
+    width:100%;
+    margin:0 auto;
+    margin-bottom: 10px;
+  }
+  #mid #mid_3{
+    height: 200px;
+    overflow: hidden;
+  }
+  #mid_last{
+    height: 200px;
+    overflow: hidden;
+  }
+  #mid #ibanner{
+     height: 200px;
+  }
+  #ibanner #ibanner_pic img{
+    height: 200px;
+  }
+  #mid #id1{
+    height:90px;
+  }
+  #mid #id2{
+    height:100px;
+  }
+  #mid_3 p{
+    font-size:12px;
+      
+    
+  }
+   #mid_last p{
+    font-size:12px;
+      
+    
+  }
+}
+#ibanner {
+	/*为什么这儿要采用相对定位*/
+	position:relative;
+	width:100%; 
+	height:457px;
+	overflow:hidden;
+	margin:0 auto;
+	}
+/*针对的是图片链接*/
+#ibanner_pic a {
+	position: absolute;
+	top: 7px;
+	display: block;
+	width:100%;
+	height: 457px;
+	overflow: hidden;
+	left: 7px;
+ }
+ #ibanner_pic img{
+	 width:100%;
+	 height:457px;
+	 margin:2px;
+	 }
+#ibanner_btn { 
+	position:absolute;
+	/*检索或设置对象的层叠顺序。*/
+	 z-index:50;
+	 right:5px;
+	 bottom:5px; 
+	 font-weight:700; /**/
+	 font-family:Arial;
+	 border:solid 0px #FF0000;
+	
+	  }
+	  /*
+	  		切换数字的外观
+			你能举一反三吗，能得到一些启发吗，能触类旁通吗
+	  */
+#ibanner_btn span { 
+	display:block;
+	float:left;
+	margin-left:4px;
+	padding:0 5px;
+	background:#0CC;
+	cursor:pointer;
+}
+/*设置切换数字的底纹外观风格 这个属性要靠js代码添加*/
+#ibanner_btn .normal { 
+	height:20px;
+	margin-top:8px;
+	border:0px solid #999;
+	color:#F00;
+	font-size:16px;
+	line-height:20px;
+}
+/*
+	只要我能思考，我就不怕，我就能追求!!
+	.current用js代码动态添加
+	技术是冷漠的
+	艺术是温情的
+	给技术穿上艺术的外衣，项目才显的完美。
+	才可以打动人。
+	打动人的，其实不是技术，而是由技术展现出来的温情.
+	你的心态是什么，你的心态决定了你展示出来的东西
+	体会一下写这个代码人的思路，心态，情感
+*/
+#ibanner_btn .current { 
+	height:28px;
+	border:0px solid #FF5300;
+	color:#FFF;
+	font-size:28px;
+	line-height:28px;
+	background:#00F;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../image/logo.png">
+<link rel="stylesheet" href="../css/yy.css" />
+<title>Liang Huanna's Personal Website</title>
+<script src="../js/jquery.min.js"/></script>
+<script src="../js/fabhui.js"></script>
+<script src="../js/change.js"></script>
+</head>
+    
+<body>
+<div id="main">
+    <div class="header">
+        <div class="my">
+            <div><img src="../image/logo.png" class="logo" /></div>
+            <div class="biaoti"><img src="../image/my_01_02.gif" class="biaoti_img" /></div>
+        </div>
+        <div class="top">
+             <div class="daohang">
+               <ul>
+                  <li id="txt1"><a href="index.html" target="_self">首页</a></li>
+                  <li id="txt2"><a href="about me.html" target="_self">学无止境</a></li>
+                  <li id="txt3"><a href="happy.html" target="_self">小确幸</a></li>
+                  <li id="txt4"><a href="doing.html" target="_self">文字心声</a></li>
+                  <li id="txt5"><a href="resume.html" target="_self">求职简历</a></li>
+                  <li id="txt6"><a href="calling.html" target="_self">联系我</a></li>
+                  <li id="txt7"><a href="guestbook.html" target="_self">留言板</a></li>    
+               </ul>
+             </div> 
+        </div>
+    </div>
+    <div class="gb_z">
+    	<div class="gb_box">
+        	<div class="wel">
+            	<p>欢迎来到绿子小姐的留言板</p>
+                <form>
+    				<input type="text" value="search" onFocus="this.value='';" 
+                    onBlur="if(this.value==''){this.value='search';}"  class="s" class="search"/>
+    				<input type="submit" name="submit" class="sl" value="搜"/>
+   			   		
+               </form>
+               <form class="form1">
+               <input type="button" value="管理员登录" class="guanli">
+               <input type="button" value="退出" class="tuichu">
+               </form>
+            </div>
+            <div class="gb_g">
+            <p class="tong">留言板<hr /></p></div>
+            <div class="gb_home">
+                <p class="tong">主人寄语<hr /></p>
+                <marquee  class="gundong1" align="center" behavior="scroll" direction="left"
+                  hspace="4" vspace="1" loop="-1" scrollamount="2" 
+                 scrolldelay="-1" onMouseOut="this.start()" onMouseOver="this.stop()">　
+                 　<h3>在关于未来的相逢里，愿能蜕变成最精彩的模样。</h3>
+				</marquee>
+                <marquee  class="gundong2" align="center" behavior="scroll" direction="up"
+                  hspace="4" vspace="1" loop="-1" scrollamount="2" 
+                 scrolldelay="-1" onMouseOut="this.start()" onMouseOver="this.stop()">　
+                   <a>行走的路人，没人喜欢平稳的泥土，无论泥土多芳香，再忙碌的人也会多看一眼风中的
+                   百花。即使他们不像泥土那么稳稳的在那，但他们的努力绽放，毕竟给这世界带来了
+                   难忘的片段。这个，是不是你我想要的呢？</a>
+				</marquee>
+                <!--<h3>在关于未来的相逢里<br />愿能蜕变成最精彩的模样</h3>-->
+            </div>
+            <div class="gb_visit">
+                <p class="tong">留言<hr /></p>
+                <div class="visit">
+                	<form>
+                    <div class="visit_left">
+                    <input class="user" name="user" type="text" placeholder="你的名字" onFocus="this.placeholder = '';"
+                     onBlur="if (this.placeholder == '') {this.placeholder = 'Your Name';}return checkename();"/>
+                     <br /><br /><br />
+                    <textarea class="text" name="content" type="text"
+                     placeholder="留下想对我说的话奥。" onfocus="this.placeholder = '';" 
+                     onblur="if (this.placeholder == '') {this.placeholder = '留下想对我说的话奥。';}" 
+                     required=""></textarea><br />
+                    <input class="sm" name="sm" value="nosee" type="checkbox"/>
+                    <label for="ly">私密留言</label>
+                    <label for="ly">验证码：</label>
+                    <input type="code" class="yanzhengma" name="yanzhengma" placeholder="验证码" onFocus="this.placeholder = '';" 
+                     onBlur="if (this.placeholder == '') {this.placeholder = '验证码';}"/>
+                     <img src=""/><br />
+                     <label for="ly"><input type="submit" value="发表" class="tijiao"/></label>
+                    </div>
+                    <div class="visit_right">
+                    <label for="user_1"><img src="../image/logo.png"/></label>
+                    <input class="user_1" type="radio" name="radio"/>
+                    <label for="user_2"><img src="../image/logo.png"/></label>
+                    <input class="user_2" type="radio" name="radio"/>
+                    <label for="user_3"><img src="../image/logo.png"/></label>
+                    <input class="user_3" type="radio" name="radio"/>
+                    <label for="user_4"><img src="../image/logo.png"/></label>
+                    <input class="user_4" type="radio" name="radio"/>
+                    <label for="user_5"><img src="../image/logo.png"/></label>
+                    <input class="user_5" type="radio" name="radio"/>
+                    <label for="user_6"><img src="../image/logo.png"/></label>
+                    <input class="user_6" type="radio" name="radio" />
+                    <a class="shangchuan">（也可以上传你喜欢的头像奥。）</a>
+                     <div class="visit_liulan"><input type="file" name="picture">
+                     </div>
+                    </div>
+                     </form>
+                </div>     
+            </div>
+            <div class="visitor">
+                <p class="tong">留言(4)</p>
+                <div class="content">
+                <div class="visitor_left">
+                	<img src="../image/logo.png"/>
+                </div>
+         		<div class="visitor_right"> 
+                	<div class="laifang">
+                        <p class="visitor_top"><a>帅哥</a><span>第四楼</span></p>
+                        <p class="visitor_content">&nbsp;我们。</p>
+                        <p class="visitor_bottom">2016-7-29<span>13:19</span>
+                        <span><a>删除</a></span></p>
+                        <hr />
+                    </div>
+                    <div class="huifu">
+                        <div class="huifu_left">
+                        <img src="../image/logo.png"/>
+                        </div>
+                        <div class="huifu_right">
+                        <p class="huifu_top"><a>管理员回复</a><span>我们。</span></p>
+                        <p class="huifu_bottom">2016-7-29<span>13:19</span>
+                        <span><a>回复</a></span></p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="content">
+                <div class="visitor_left">
+                	<img src="../image/logo.png"/>
+                </div>
+         		<div class="visitor_right"> 
+                	<div class="laifang">
+                        <p class="visitor_top"><a>帅哥</a><span>第四楼</span></p>
+                        <p class="visitor_content">&nbsp;我们。</p>
+                        <p class="visitor_bottom">2016-7-29<span>13:19</span>
+                        <span><a>回复</a></span></p>
+                        <hr />
+                    </div>
+                    <div class="huifu">
+                        <div class="huifu_left">
+                        <img src="../image/logo.png"/>
+                        </div>
+                        <div class="huifu_right">
+                        <p class="huifu_top"><a>管理员回复</a><span>我们。</span></p>
+                        <p class="huifu_bottom">2016-7-29<span>13:19</span>
+                        <span><a>删除</a></span></p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="content">
+                <div class="visitor_left">
+                	<img src="../image/logo.png"/>
+                </div>
+         		<div class="visitor_right"> 
+                	<div class="laifang">
+                        <p class="visitor_top"><a>帅哥</a><span>第四楼</span></p>
+                        <p class="visitor_content">&nbsp;我们。</p>
+                        <p class="visitor_bottom">2016-7-29<span>13:19</span>
+                        <span><a>回复</a></span></p>
+                        <hr />
+                    </div>
+                    <div class="huifu">
+                        <div class="huifu_left">
+                        <img src="../image/logo.png"/>
+                        </div>
+                        <div class="huifu_right">
+                        <p class="huifu_top"><a>管理员回复</a><span>我们。</span></p>
+                        <p class="huifu_bottom">2016-7-29<span>13:19</span>
+                        <span><a>删除</a></span></p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="content">
+                <div class="visitor_left">
+                	<img src="../image/logo.png"/>
+                </div>
+         		<div class="visitor_right"> 
+                	<div class="laifang">
+                        <p class="visitor_top"><a>帅哥</a><span>第四楼</span></p>
+                        <p class="visitor_content">&nbsp;我们。</p>
+                        <p class="visitor_bottom">2016-7-29<span>13:19</span>
+                        <span><a>回复</a></span></p>
+                        <hr />
+                    </div>
+                    <div class="huifu">
+                        <div class="huifu_left">
+                        <img src="../image/logo.png"/>
+                        </div>
+                        <div class="huifu_right">
+                        <p class="huifu_top"><a>管理员回复</a><span>我们。</span></p>
+                        <p class="huifu_bottom">2016-7-29<span>13:19</span>
+                        <span><a>删除</a></span></p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+        	<div class="d_left">
+        	<a>第<span>1</span>页</a>
+			<a>共<span>4</span>页</a>
+            </div>
+            <div class="d_m">
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+            </div>
+             <form action="xx.php" method="get">
+            转到<input type="text" class="ye" name="page"/>页
+            <input type="submit" value="确定" class="sub">
+            </form>
+        </div>
+    </div>
+</div>
+    <!-----版权开始------->
+	<div class="banquan"><a>版权所有||梁欢娜个人网页||1643148250@qq.com</a></div>
+    <!-----版权结束------->
+<div class="tbox" style="display: block;">
+<a href="javascript:void(0)" id="gotop"><img src="../image/top.jpg"</a>
+</div>
+</body>
+</html>

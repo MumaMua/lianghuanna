@@ -1,0 +1,31 @@
+*{
+  margin:0 auto;
+}
+body{
+background: #396 url(image/r.png) 180px 300px no-repeat;;/*62c1d9*/
+}
+form{
+  width:400px;
+  height: 400px;
+  margin:0 auto;
+  margin-top:40px;
+  
+}
+.replay{
+  width:393px;
+  height:300px;
+  font-size:28px;
+  font-family:宋体;
+  resize: none;
+}
+.tijiao{
+  width:70px;
+  height:40px;
+   font-size:20px;
+  font-family:宋体;
+  margin:10px 0px 0px 30px;
+  border:0;
+  background:#FFF;
+}
+
+

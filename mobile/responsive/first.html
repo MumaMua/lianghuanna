@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, 
+user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="shortcut icon" href="image/logo.png">
+<title>响应式页面1</title>
+<link rel="stylesheet" href="style-text3.css"/>
+<script src="jquery.min.js"></script>
+<script>
+$(function(){
+	$("#icon").click(function(){
+		if($("#icon").is(":visible")){
+		
+			$("#nav").toggle(300);
+			};
+		
+		});
+		
+	$(window).resize(function(){
+		if(!$("#nav").is(":visible")){
+			$("#nav").attr('style',function(i,style){
+				return style.replace(/display[^;]+;?/g,'');
+				});
+			}
+		
+		});	
+	});
+</script>
+</head>
+
+<body>
+<div id="main">
+<header id="header">
+<h2>欢迎光临我的技能展示平台</h2>
+<h3>展示自我，分享生活!</h3>
+
+</header>
+<div id="icon">Ξ</div>
+<aside>
+    <nav id="nav">
+    	<ul>
+    	<li><a href="#">我的首页</a></li>
+        <li><a href="major.html" target="_blank">专业展示</a></li>
+        <li><a href="#">技能展示</a></li>
+        <li><a href="#">大学四年</a></li>
+        <li><a href="#">留言页面</a></li>
+        </ul>
+    </nav>
+</aside>
+<aside>
+	<nav id="left">
+    	<ul>
+        <li><a href="#">大学</a></li>
+        <li><a href="#">友情</a></li>
+        <li><a href="#">旅游</a></li>
+        <li><a href="#">毕业</a></li>
+        </ul>
+    </nav>
+</aside>
+<article id="content">
+<section>
+<p>　　我有那无比绚烂的青春，于是我有了生机盎然的世界。青春如一片丰收恬淡的庄园，硕大
+的希望与幸福等待着我的一闪而过而采撷满怀。青春中没有等待的果实，只有昂扬的斗志去收获，
+青春里的我们虽没有指点江山的豪迈壮举但也不乏为了薄发厚积的深沉。
+</p>
+</section>
+<section>
+<h3>大学</h3>
+<p>
+　　宝鸡文理学院是一所以教师教育为主要特色，拥有哲学、经济学、法学、教育学、文学、历史学、
+理学、工学、管理学、艺术学等多学科的省属普通本科高等学校。其前身是1958年创办的宝鸡大
+学（本科），1963年因国家经济困难停办，1975年在此基础上成立陕西师范大学宝鸡分校，1978
+年经国务院批准为宝鸡师范学院，1992年经原国家教委批准，与1984年新设立的宝鸡大学合并，
+更名为宝鸡文理学院。学校位于炎帝故里、周秦文化发祥地、陕西省第二大工业城市——宝鸡市，
+地处宝鸡国家高新技术产业开发区，南靠秦岭，北临渭河，依山傍水，环境宜人。占
+地面积1100亩。<a href="#"> 详细</a></p>
+</section>
+<section id="img">
+<h3>友情岁月</h3>
+<img src="image/pic1.jpg" width="30%" height="30%">
+<img src="image/pic2.jpg" width="30%" height="30%" >
+<img src="image/pic3.jpg" width="31%" height="30%">
+</section>
+<section>
+<h3>旅游</h3>
+<p>　　宝鸡旅游资源十分丰富，素有"炎帝故乡"、"青铜器之乡"和"民间工艺美术之乡"的美称, 主要旅游
+参观景点有法门寺、周公庙、五丈原诸葛亮庙、关山草原、姜太公钓鱼台、雍城和秦公大墓遗址、太白
+山、炎帝陵祠、宝鸡青铜器博物馆、金台观、北首岭、东湖、九成宫遗址等。其中，宝鸡市十大旅游景点为
+法门寺、太白山国家森林公园、钓鱼台、周公庙、五丈原诸葛亮庙、凤翔东湖、嘉陵江源头风景区、关山
+草原、炎帝陵祠、宝鸡青铜器博物馆。 ·祭祖朝圣游（炎帝陵、天台山景区、嘉陵江源头景区、通天河森
+林公园） 炎帝陵乘车路线：市内乘坐2、6、39路公交车桥梁厂站下车。 天台山景区门票：30元/人。 
+景区联系地址：宝鸡市石鼓镇。联系电话：0917-3570105 嘉陵江源头景区:从市区到景区有客运线路。
+散客可乘坐宝鸡—凤县的客运班车在川陕公路33公理处（秦岭梁顶）下车即到；也可在市区租车前往,租车
+费用50—80元。 门票 40元／人 。<a href="#"> 详细</a></p>
+</section>
+<section id="img1">
+<h3>毕业了</h3>
+<img src="image/2.jpg" width="60%" height="50%"/>
+</section>
+</article>
+<footer id="footer">宝鸡文理学院2016-2017年
+</footer>
+
+</div>
+</body>
+</html>

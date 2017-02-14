@@ -1,0 +1,441 @@
+/* CSS Document */
+body{
+  padding:0;
+  margin:0;
+  font-size:14px;
+  width:1200px;
+  height:943px;
+  background:white;
+  margin:0 auto;
+}
+p,li,ul,ol,h1,h2,h3,h4,h5,h6,div{
+  padding:0;
+  margin:0;
+}
+ul li{
+  list-style: none;
+}
+.header{
+  width:1200px;
+  height:150px;
+  background:#adf5bc;
+  margin:0 auto;
+  margin-top: 3px;
+  position: relative;
+}
+.my{
+	background:#adf5bc;
+	margin-top:3px;
+	margin-bottom: -3px;
+	width: 1200px;
+}
+.logo{
+	position:fixed;
+	/*! padding:0px; */
+	width:60px;
+	height:60px;
+	 position: fixed;
+	z-index: 3000;
+}
+.daohang{
+  width:1200px;
+  height:63px;
+ /* border:solid f7d9e5;*/
+  
+}
+.daohang ul{
+	width:1200px;
+	margin-left:1px;
+	
+}
+.daohang ul li{
+ display:block;
+  float:left;
+  width:171px;
+  height:77px;
+  background:#eca1bf;
+	text-decoration: none;
+  margin:0px;
+}
+
+.daohang ul li a{
+   display:block;
+  font-size:20px;
+   width:170px;
+  height:77px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 77px;
+  font-family:宋体;
+	color:#000;
+}
+
+.daohang ul li:hover {
+	background:#eca1bf;
+	width:160px;
+	height:77px;
+	text-align:center;
+	margin:0px 5px 5px;
+	border-radius: 3px;
+	background:rgba(0,0,0,0.3);
+}
+
+.biaoti{
+width:600px;height:65px;margin: 0 auto;
+}
+.wel{
+	width:1188px;
+	margin:0 auto;
+	height:100px;
+}
+.wel p{
+	float:left;
+	font-size:30px;
+	line-height: 100px;
+	margin-left:200px;
+	font-family:华文行楷;
+}
+.wel form{
+	float: right;
+}
+.s{
+	border:0;
+	width:143px;
+  height: 30px;
+	border:solid 1.5px #000;
+	border-radius: 8px;
+}
+.sl{
+	border:0;
+	width:30px;
+  height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.form1{
+	clear: both;
+	margin-top:-34px;
+	margin-right: 10px;
+}
+.guanli{
+	border:0;
+	width:80px;
+  height: 30px;
+	border:solid 1.5px #000;
+	border-radius: 8px;
+		cursor: pointer;
+}
+.tuichu{
+	border:0;
+	width:60px;
+  height: 30px;
+	border:solid 1.5px #000;
+	border-radius: 8px;
+		cursor: pointer;
+}
+.gb_z{
+	width:1188px;
+	overflow:hidden;
+	padding-bottom:13px;
+	margin-top:3px;
+	position: absolute;
+	border:solid 4px #000;
+	background:url(../image/rose2.png) 970px 78px no-repeat;
+}
+.gb_box{
+	width:1188px;
+	margin:0 auto;
+}
+.gb_g p{
+	height:30px;
+	margin-left:30px;
+	line-height: 30px;	
+	font-size:20px;
+	font-family:宋体;
+}
+.tong{
+	font-size:20px;
+	font-family:宋体;
+	font-weight: bold;
+}
+.tong hr{
+	width:1140px;
+	font-weight:bold;	
+	margin: 0 auto;
+}
+.gundong1{
+	width:900px;
+	height: 70px;
+	margin-left:140px;
+	margin-top:-20px;
+}
+.gundong1 h3{
+	font-size:24px;
+	font-family:宋体;
+}
+.gundong2{
+	width:900px;
+border:solid 3px #000;
+	margin-left: 140px;
+	background:url(../image/rose4.png) -8px 104px no-repeat;
+}
+.gundong2 a{
+	font-size:24px;
+	font-family: 华文新魏;
+	
+}
+.gb_home{
+	width:1188px;
+}
+.gb_home p{
+margin-left:30px;
+}
+.gb_home h3{
+	text-align: center;
+	line-height:50px;
+}
+.gb_visit{
+	width:1188px;
+	margin-top:3px;
+}
+.gb_visit p{
+		margin-left:30px;
+}
+.visit{
+	width:1080px;
+	height: 400px;
+	margin:0 auto;
+	margin-top:10px;
+	border:solid 3px #000;
+	border-radius: 8px;
+}
+.visit_left{
+	width:600px;
+	margin-top:10px;
+	float: left;
+		margin-left:34px;
+	
+}
+.visit_left .user{
+	float:left;
+	margin:10px 0 0 50px;
+	border:0;
+	height:34px;
+	width:180px;
+	border:solid 1.5px #000;
+	border-radius: 8px;
+}
+.visit_left form{
+		margin:10px 0 0 50px;
+}
+.visit_left .text{
+	margin:10px 0 0 50px;
+	width:500px;
+	height:200px;
+  border:solid 1.5px #000;
+	border-radius: 8px;
+	resize:none;
+	background:url(../image/rose5.png) 430px 130px no-repeat;
+}
+.visit_left .tijiao{
+		border:0;
+	height:34px;
+	width:60px;
+	border:solid 1.5px #000;
+	background: #FFF;
+	border-radius: 8px;
+	font-family: 宋体;
+	font-size:18px;
+		cursor: pointer;
+}
+.visit_left .sm{
+	margin-left:14px;
+	
+}
+.visit_left form label{
+	font-family: 宋体;
+	font-size: 20px;
+	margin-left:8px;
+	height:30px;
+}
+.visit_left .yanzhengma{
+	border:0;
+	height:30px;
+	width:60px;
+	border:solid 1.5px #000;
+	background: #FFF;
+	border-radius: 8px;
+}
+.visit_left form img{
+	margin-left: 14px;
+	height:30px;
+	width:60px;
+	margin-top:10px;
+}
+.visit_right{
+
+	width:350px;
+	margin-top:10px;
+	margin-right:60px;
+	float:right;
+}
+.visit_right img{
+	width:70px;
+	height:70px;
+	margin:3px;
+	border-radius: 50%;
+}
+
+.shangchuan{
+	font-size:20px;
+	font-family: 宋体;
+}
+.visit_liulan{
+	margin-left:14px;
+}
+.visit_liulan input{
+	border:0;
+}
+.content{
+		width:1188px;
+	border-top:solid 1px #000; 
+	height: 240px;
+}
+.visitor{
+	width:1188px;
+margin:0 auto;
+}
+.visitor p{
+		margin-left:30px;
+	margin-top:10px;
+}
+.visitor_left{
+	width:150px;
+	height:240px;
+	float:left;
+}
+.visitor_left img{
+	width:70px;
+	height: 70px;
+	margin-left:40px;
+}
+.visitor_right{
+	width:950px;
+	height:240px;
+		float:left;
+	background:url(../image/rose3.png) 860px 64px no-repeat;
+}
+.laifang{
+	height:140px;
+}
+.visitor_right p{
+	font-size: 20px;
+	font-family: 宋体;
+	
+}
+.visitor_right .visitor_top a{
+text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+font-size: bold;
+}
+.huifu_top a{
+	
+	text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+}
+.visitor_right .visitor_top span{
+		float:right;
+    color:#396;
+	text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+}
+.visitor_right .visitor_content{
+	height:60px;
+}
+.visitor_right .visitor_bottom span{
+	margin-left: 40px;
+     cursor:pointer;
+}
+.huifu{
+	height:90px;
+}
+.huifu_left{
+	width:100px;
+	height:90px;
+	float: left;
+}
+.huifu_right{
+	width:850px;
+	height:90px;
+	float: left;
+}
+.huifu .huifu_left img{
+	width:70px;
+	height: 70px;
+}
+.huifu_right{
+}
+.huifu_top{
+	height:35px;
+}
+.huifu_top span{
+	margin-left: 20px;
+	height:65px;
+    
+}
+.huifu_bottom span{
+	margin-left: 20px;
+     cursor:pointer;
+}
+.form{
+	clear: both;
+	width:508px;
+	height: 30px;
+	float: right;
+}
+.form a{
+	margin:0 10px;
+	font-size:16px;
+    font-family:宋体;
+	text-decoration: none;
+	color:#000;
+	line-height: 30px;
+}
+form{
+	float:right;
+	font-size:16px;
+    font-family:宋体;
+	color:#000;
+}
+.form .ye{
+	width: 40px;
+	height: 20px;
+	border: 0;
+	border:solid 1.5px #000;
+	border-radius: 8px;
+	margin:0 10px;
+}
+.form .sub{
+	width: 50px;
+	height: 30px;
+	border: 0;
+    font-size:16px;
+    font-family:宋体;
+	border:solid 1.5px #000;
+	border-radius: 8px;
+	margin:0 10px;
+}
+
+.banquan{
+	width:1200px;
+	height:90px;
+	margin:0 auto;
+	background:#999;
+	clear: both;
+	margin-top:1980px;
+}
+.banquan a{
+	line-height:90px;
+	padding-left:400px;
+	font-size:20px;
+	font-family:宋体;
+}
+
+

@@ -1,0 +1,414 @@
+/* CSS Document */
+body{
+    background:url(image/qinchun.jpg) 0 0 no-repeat;
+  background-size:cover;
+   /* helvetica,verdana,san-serif无衬线字体*/
+ -webkit-text-size-adjust:none;
+	font:400 14px/1.5 helvetica,verdana,san-serif;
+}
+#main{
+  width:90%;
+  margin:0 auto;
+
+}
+*{
+  margin:0;
+  padding: 0;
+}
+/******************header**************************/
+#header{
+  width:86%;
+  margin:0 auto;
+  position: relative;
+}
+hgroup img{
+  width:11%;
+}
+
+#logo{
+    -webkit-animation:logo1 2s linear infinite;
+  -moz-animation:logo1 2s linear infinite;
+ 
+}
+@-moz-keyframes logo1{
+  0%{-moz-transform:rotate(0deg);  }
+  50%{-moz-transform:rotate(180deg);}
+  100%{-moz-transform:rotate(360deg);}  
+}
+@-webkit-keyframes logo1{
+  0%{-webkit-transform:rotate(0deg);  }
+  50%{-webkit-transform:rotate(180deg);}
+  100%{-webkit-transform:rotate(360deg);}
+}
+
+
+
+
+h3{
+  color:green;
+  font-family: 宋体;
+}
+#nav{
+  width:100%;
+  overflow: hidden;
+  float:none;
+  margin:20px 0;
+  border-radius: 8px;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b9b9b9), to(#6a6a6a));
+	background: -moz-linear-gradient(top,  red,  yellow);
+	background: linear-gradient(0deg, green, black);
+  
+}
+#nav ul{
+float:left;
+  width:78%;
+}
+#nav ul li{
+  list-style: none;
+  float:left;
+  margin-left:5%;
+  font-size:20px;
+  height:60px;
+  line-height: 60px;
+}
+#nav li a:hover{
+  color:lightcoral;
+}
+#nav ul a{
+  text-decoration: none;
+  color:white;
+}
+#form{
+ position:absolute;
+right:20px;
+  bottom:15px;
+}
+#s{
+  width:150px;
+}
+#s:focus{
+  background: yellow;
+  width:130px;
+  transform: all .7s;
+}
+.search{
+  height:30px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+}
+#s{
+  width:120px;
+    transition: 2s;
+  }
+#s:focus{
+  background: yellow;
+  width:110px;
+  transform: all .7s;
+}
+#sl{
+  background:green;
+  width:30px;
+  height: 30px;
+  border:0;
+  color:yellow;
+  font-size: bold;
+  border-radius:50%;
+}
+#icon{
+  background:green;
+  color:white;
+  font-weight: bold;
+  font-size:30px;
+  line-height: 60px;
+  text-align: right;
+  display: none;
+  cursor:pointer;
+}
+.more{
+  display: none;
+  
+  
+}
+/*****************************artrticle****************/
+#content{
+  width:54%;
+  margin-left:7%;
+  background: white;
+  padding:2%;
+  float:left;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+
+}
+#content .top h2{
+  color:green;
+  margin:2px;
+  padding: 2px;
+}
+.top p{
+   margin:2px;
+  padding: 2px;
+}
+.top span{
+    
+}
+.top a{
+  font-weight: bold;
+  color:lightblue;
+}
+
+section img{
+  width:100%;
+}
+section p{
+  width:100%;
+   margin:2px;
+  padding: 2px;
+  line-height: 1.5;
+}
+video{
+text-align: center;
+}
+.same{
+  color:aquamarine;
+   margin:2px;
+  padding: 2px; 
+}
+video{
+  max-width: 100%;
+}
+audio{
+  max-width:100%;
+}
+/********************aside*******************************/
+.c_s{
+  width:90%;
+ margin-bottom: 30px;
+  padding:10px; 
+  background: white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+}
+#right{
+  width:26%;
+  margin-left:68%;
+}
+#right li {
+  list-style: none;
+  margin:7% 5%;
+  border-bottom-style:dotted;
+  border-color: burlywood;
+}
+#right li a{
+  text-decoration:none;
+  color:chartreuse;
+}
+#right li a span{
+  color:black;
+}
+
+/******************footer*******************************/
+#footer{
+  color:green;
+  width:100%;
+  clear:both;
+  margin-left:10%;
+  padding:10px;
+}
+#f{
+display: block;
+  font-size:60px;
+  text-align: center;
+  float:right;
+  margin-right:40px;
+margin-top:-100px;
+  }
+@media only screen and (max-width:930px){
+  #s{
+  width:120px;
+    transition: 2s;
+  }
+#s:focus{
+  background: yellow;
+  width:110px;
+  transform: all .7s;
+}
+   #right{
+    width:25%;
+    margin-left:65%;
+   overflow: hidden;
+  }
+  #content{
+    width:45%;
+  }
+  #nav ul li{
+    float:left;
+    height: 50px;
+  }
+  #form{
+    top:20px;
+  }
+  #f{
+display: block;
+  font-size:50px;
+  text-align: center;
+  float:right;
+  margin-right:40px;
+margin-top:-80px;
+  }
+}
+@media only screen and (max-width:780px){
+  #s{
+  width:100px;
+    transition: 2s;
+  }
+#s:focus{
+  background: yellow;
+  width:130px;
+  transform: all .7s;
+}
+  #nav ul li{
+    float:left;
+    height: 50px;
+  }
+ #form{
+    top:20px;
+  }
+   #right{
+    width:30%;
+    margin-left:60%;
+   overflow: hidden;
+  }
+  #content{
+    width:40%;
+  }
+  .more{
+    display:none;
+  }
+  #f{
+display: block;
+  font-size:50px;
+  text-align: center;
+  float:right;
+  margin-right:40px;
+margin-top:-70px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  #main{width:100%;}
+  #s{
+  width:70px;
+
+  }
+  #s:focus{
+  background: yellow;
+  width:90px;
+  transform: all .7s;
+}
+  #content{
+    float:none;
+    width:80%;
+    margin-top:30px;
+    
+  }  
+  #right{
+    width:88%;
+    margin-left:8%;
+    margin-top:30px; 
+  }
+  #icon{
+    display:block;
+    width:100%;
+    margin:0 auto;
+    border-radius:8px;
+    position: absolute;
+  }
+  #nav{
+    margin-top:70px;
+  }
+  #nav ul{
+ height:60px;
+	  }
+  #nav ul li{
+    float:left;
+  }
+  .more{
+    float:left;
+    margin-top:-60px;
+    margin-left:85%;
+    display: inline;
+    color:white;
+    cursor: pointer;
+    background: red;
+  }  
+  #form{
+    height: 100px;
+  }
+  #f{
+display: block;
+  font-size:40px;
+  text-align: center;
+  float:right;
+  margin-right:30px;
+margin-top:-60px;
+  }
+}
+.tbox {
+    width: 50px;
+    float: right;
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+	
+	  border-radius: 10px;
+	  text-align: center;
+	
+}
+.tbox a{
+	color: white;
+}
+@media only screen and (max-width:420px){
+  #nav{
+    margin-top:30px;
+  }
+  #nav ul{
+ height:160px;
+	  }
+  #nav ul li{
+    float:left;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

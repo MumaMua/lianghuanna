@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="../css/denglu.css" />
+</head>
+
+<body>
+<div class="denglu">
+<p>Login  Form</p>
+    <form action="admin_login_.php" method="POST">
+        <input type="text" name="name" class="name" onFocus="this.value='';" 
+                    onBlur="if(this.value==''){this.value='Username';}" 
+        ><br />
+        <input type="password" name="key" class="mima" onFocus="this.value='';" 
+                    onBlur="if(this.value==''){this.value='Password';}" ><br /> 
+        <input type="code" class="yanzhengma" name="yanzhengma" onFocus="this.value='';" 
+                    onBlur="if(this.value==''){this.value='Code';}" />
+         <img class="yz" src="yanzhengma.php " onclick="this.src=this.src+'?'+
+        Math.random()"/><br />  
+    <input type="submit" name="tijiao" value="Submit" class="tijiao">
+    </form>
+</div>
+</body>
+</html>

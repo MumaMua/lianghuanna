@@ -1,0 +1,235 @@
+
+/*= Reset CSS 
+============= */
+.full-length
+{
+	background:#666;width:1200px;height:1604px;
+}
+h2{ color: #000;
+   float: left;
+   width: 100%; 
+   font-size: 24px;
+   text-align: center; 
+   padding: 5px 0 5px; 
+   position: relative; z-index: 50;}
+h2 span{position: relative;
+ 	    padding-bottom: 5px;}
+img{max-width:90%;
+ vertical-align: middle;}
+ul{margin: 0 -1.5%;}
+li{float: left;
+ width: 25%; 
+ list-style: none;
+ }
+p{
+line-height: 20px; 
+font-size: 24px;
+ margin-bottom: 10px;
+ }
+
+.text-desc{position: absolute; 
+		   left: -20px; top: 0;
+		   background-color: #fff;
+		   height: 100%; 
+		   opacity: 0; 
+		   width: 100%; 
+		  	font-family:'华文行楷';
+		   }
+/*= Reset CSS End
+
+/* effect-1 css */
+.port-1{float: left; width: 100%; 
+		position: relative; overflow: hidden; 
+		text-align: center; 
+		border: 2px solid rgba(255, 255, 255, 0.9);
+		}
+.port-1 .text-desc{opacity: 0.6; top: -100%; 
+				   transition: 0.5s; color: #000; 
+				   padding: 15px 10px 20px;
+				   }
+.port-1 img{transition: 0.5s;
+			}
+.port-1:hover img{transform: scale(1.2);}
+.port-1.effect-1:hover .text-desc{top: 10px;}
+.port-1.effect-2 .text-desc{top: 120px; }
+.port-1.effect-2:hover .text-desc{top: 0px;}
+.port-1.effect-3 .text-desc{top: 50%; left: 50%;
+							width: 0; height: 0; 
+							overflow: hidden;
+							 padding: 0;
+							 }
+.port-1.effect-3:hover .text-desc{width: 100%; top: 0; 
+								  left: 0; height: 100%;
+								   padding: 45px 20px 20px;
+								   }
+/* effect-1 css end */
+
+/* effect-3 css */
+.port-2{float: left; width: 100%;
+		 position: relative;
+		 overflow: hidden; 
+		 text-align: center;
+		 border: 4px solid rgba(255, 255, 255, 0.9);
+		 perspective: 500px;
+		}
+.port-2 img{transition: 0.5s;}
+
+.port-2.effect-1 .text-desc{z-index: -1; 
+							transition: 0.5s; 
+							transform: rotateX(80deg);
+							transform-origin: center top 0; 
+							padding: 45px 20px 20px; 
+							opacity: 1;
+							}
+.port-2.effect-1:hover .text-desc{transform: none;}
+.port-2.effect-1:hover img{opacity: 0.5; transform: scale(1.2)}
+.port-2.effect-2 .text-desc{z-index: -1; transition: 0.5s;
+						   transform: rotateX(80deg); 
+						   transform-origin: center bottom 0; 
+						   top: 140px; bottom: 0; padding: 155px 20px 20px;
+						   }
+.port-2.effect-2:hover .text-desc{transform: none; opacity: 1;}
+.port-2.effect-2:hover img{transform: translateY(-40%)}
+
+.port-2.effect-3 .text-desc{z-index: -1; transition: 0.5s;
+						    transform: rotateX(80deg);
+						    transform-origin: center top 0;
+							 padding: 65px 20px 20px;
+							 }
+.port-2.effect-3:hover .text-desc{transform: none; opacity: 1;}
+.port-2.effect-3:hover img{transform: translateY(50%)}
+/* effect-2 css end */
+/* effect-3 css */
+.port-3{float: left; width: 100%;
+ 		position: relative; overflow: hidden;
+        text-align: center; 
+		border: 4px solid rgba(255, 255, 255, 0.9); 
+		overflow: hidden;
+		}
+.port-3 .text-desc{opacity: 0; transition: 0.5s; color: #000;}
+
+.port-3.effect-1 img{transition: 0.5s; position: relative; width: 100%; left: 0;}
+.port-3.effect-1:hover img{left: 50%;}
+.port-3.effect-1 .text-desc{transform: perspective(600px) rotateY(90deg);
+                            transform-origin: left center 0;
+						    width: 50%; position: absolute;
+						    left: -10px; top: 100px;  
+							padding: 18px 10px;
+							}
+.port-3.effect-1:hover .text-desc{opacity: 1;
+								 transform: perspective(600px) rotateY(0deg);
+								  z-index: 99;
+								  }
+
+.port-3.effect-2 img{transition: 0.5s;
+					 position: relative; 
+					 width: 100%; top: 0;
+					 }
+.port-3.effect-2:hover img{top: 30%;}
+.port-3.effect-2 .text-desc{transform: perspective(600px) rotateX(90deg);
+						    transform-origin: top center 0;
+							 width: 100%; position: absolute;
+							  left: 0; top: 30px; height: 30%; 
+							  padding: 5px 10px;
+							  }
+.port-3.effect-2:hover .text-desc{opacity: 1;
+								  transform: perspective(600px) rotateX(0deg); 
+								  z-index: 99;
+								  }
+
+.port-3.effect-3 img{transition: 0.5s; 
+					position: relative; 
+					width: 100%; right: 0;
+					}
+.port-3.effect-3:hover img{right: 50%;}
+.port-3.effect-3 .text-desc{transform: perspective(600px) rotateY(-90deg);
+                            transform-origin: right center 0;
+							 width: 50%; position: absolute; 
+							 left: auto; right: -10px; top: 100px; 
+							  padding: 18px 10px;
+							  }
+.port-3.effect-3:hover .text-desc{opacity: 1;
+								  transform: perspective(600px) rotateY(0deg); 
+								  z-index: 99;
+								  }
+/* effect-3 css end */
+
+/* effect-8 css */
+.port-4{float: left; width: 100%;
+        position: relative; 
+		overflow: hidden; text-align: center; 
+		border: 4px solid rgba(255, 255, 255, 0.9); 
+		overflow: hidden;
+		}
+.port-4 .text-desc{opacity: 0; transition: 0.5s;
+				 color: #000; padding: 45px 20px 20px;
+				 }
+
+.port-4.effect-1 img{transition: 0.5s;}
+.port-4.effect-1:hover img{transform: scale(1.1);}
+.port-4.effect-1 .text-desc{left: 0; position: absolute;
+						    top: 50px; width: 100%; 
+							height: 100%; transform: scale(0);
+							  backface-visibility: hidden;
+							  }
+.port-4.effect-1:hover .text-desc{opacity: 0.7; 
+								  transform: scale(1); 
+								  border-radius: 20%;
+								  }
+
+.port-4.effect-2 img{transition: 0.5s;}
+.port-4.effect-2:hover img{transform: scale(1.1);}
+.port-4.effect-2 .text-desc{left: 0; position: absolute;
+						    top: 0; width: 100%; 
+							height: 100%; transform: scale(0); 
+							 backface-visibility: hidden;
+							 }
+.port-4.effect-2:hover .text-desc{opacity: 1; 
+								  transform: scale(1);
+								   border-radius: 50% 0 50% 0;
+								   }
+
+.port-4.effect-2 img{transition: 0.5s;}
+.port-4.effect-2:hover img{transform: scale(1.1);}
+.port-4.effect-2 .text-desc{left: 0; position: absolute;
+							 top: 0; width: 100%; 
+							 height: 100%; transform: scale(0);
+							   backface-visibility: hidden;
+							   }
+.port-4.effect-2:hover .text-desc{opacity: 0.7; 
+								  transform: scale(1);
+								   border-radius: 50% 0 50% 0;
+								   }
+.port-4.effect-3 img{transition: 0.5s;height:327px;width:230px;}
+.port-4.effect-3:hover img{transform: scale(1.1);}
+.port-4.effect-3 .text-desc{left: 0; position: absolute;
+						    top: 0; width: 100%; 
+							height: 100%;
+							transform: scale(0);
+							backface-visibility: hidden; 
+							background: none; 
+							padding:90px 70px 20px;
+							}
+.port-4.effect-3 .text-desc:before, .port-4.effect-3 .text-desc:after{
+		background-color: #fff;
+	    border-radius: 50% 50% 0 0;
+	    content: ""; height: 100%;
+	    left: 100%; position: absolute;
+	    top: -0px; transform: rotate(-50deg); 
+		transform-origin: 0 110% 0;
+		width: 100%; z-index: -1;
+		 }
+.port-4.effect-3 .text-desc:after {left: 0%; 
+								   transform: rotate(50deg);
+								   transform-origin: 100% 100% 0;
+								   }
+.port-4.effect-3:hover .text-desc{opacity: 0.4; 
+								  transform: scale(0.7);
+	left:-150px;
+								  }
+
+
+/* effect-8 css end */
+
+/* CSS Document */
+

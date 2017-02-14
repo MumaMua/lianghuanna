@@ -1,0 +1,193 @@
+/* CSS Document */
+/* CSS Document */
+body{
+  padding:0;
+  margin:0;
+  font-size:14px;
+  width:1200px;
+  height:943px;
+  background:white;
+  margin:0 auto;
+}
+
+p,li,ul,ol,h1,h2,h3,h4,h5,h6,div,span{
+  padding:0;
+  margin:0;
+}
+/***********返回顶部代码*********/
+.tbox {
+    width:40px;
+    float: right;
+    position: fixed;
+    right: 4px;
+    bottom: 15px;	
+	  text-align: center;
+	
+}
+.tbox a{
+	font-size:30px;
+	color: white;
+}
+#music_bg{
+	float:right;
+	margin-top:18px;
+}
+/***********返回顶部代码*********/
+
+ul li{
+  list-style: none;
+}
+
+.header{
+  width:1200px;
+  height:150px;
+  background:#adf5bc;
+  margin:0 auto;
+  margin-top: 3px;
+  position: relative;
+}
+.my{
+	background:#adf5bc;
+	margin-top:3px;
+	margin-bottom: -3px;
+	width: 1200px;
+}
+.logo{
+	position:fixed;
+	/*! padding:0px; */
+	width:60px;
+	height:60px;
+	 position: fixed;
+	z-index: 3000;
+}
+.daohang{
+  width:1200px;
+  height:63px;
+ /* border:solid f7d9e5;*/
+  
+}
+.daohang ul{
+	width:1200px;
+	margin-left:1px;
+	
+}
+.daohang ul li{
+ display:block;
+  float:left;
+  width:171px;
+  height:77px;
+  background:#eca1bf;
+	text-decoration: none;
+  margin:0px;
+}
+
+.daohang ul li a{
+   display:block;
+  font-size:20px;
+   width:170px;
+  height:77px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 77px;
+  font-family:宋体;
+	color:#000;
+}
+
+.daohang ul li:hover {
+	background:#eca1bf;
+	width:160px;
+	height:77px;
+	text-align:center;
+	margin:0px 5px 5px;
+	border-radius: 3px;
+	background:rgba(0,0,0,0.3);
+}
+.weizhi{
+	position:absolute;
+	margin-top:-10px;
+	color:#000;
+	font-size:18px;
+	margin-left:50px;
+}
+.biaoti{
+width:600px;height:65px;margin: 0 auto;
+}
+/* CSS Document */
+fieldset, img{border:0;
+			 }  /*在ie6下面，只要给插入图片加了链接，就会出现小边框*/
+
+ol, ul{list-style:none;
+	  }
+a{color: #616161;text-decoration:none;text-decoration:none;}
+.clearfix:before,.clearfix:after{display:table;}
+.clearfix:after{clear:both;}
+.both{
+		background:#00cd9b;
+	margin-top:3px;
+}
+.about4{width:1160px;
+		height:770px;
+		margin-left:40px;
+		} 
+.about4_ch{font-size:18px;
+		   color:#d80017;
+		   margin-bottom:30px;
+		   }
+.about4_main{position:relative;
+			padding-left:20px;
+			overflow:hidden;
+			}
+.line{width:1px;
+	  height:100%;
+	  background-color:#999;
+	  position:absolute;
+	  left:26px;
+	  z-index:3000;
+	  margin-top:10px;
+	  }
+.about4_ch a{
+	text-shadow: 3px 3px 3px #000;
+	color:red;
+}
+.about4_main ul{
+	height:700px;
+	width:968px;
+	}	  
+.about4_main ul li a{
+	color:#000;
+font-family: 宋体;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.about4_main ul li a:hover{
+	margin-left:43px;
+	 color:#FFF;
+  cursor: pointer;
+	transition: 2s;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+.about4_main ul li {padding-left:25px;
+				   font-size:16px;
+				   color:#333333;
+				   line-height:60px;
+				   margin-bottom:0px;
+				   background:url(../image/about4_icon.png) 7px 28px no-repeat;
+				   z-index:1000;
+	
+				   }
+.about4_main ul li:last-child{margin-bottom:0px;}
+.banquan{
+	width:1200px;
+	height:90px;
+	margin:0 auto;
+	background:#999;
+	position: absolute;
+	margin-top:3px;
+}
+.banquan a{
+	line-height:90px;
+	padding-left:400px;
+	font-size:20px;
+	color:#000;
+	font-family:宋体;
+}
+

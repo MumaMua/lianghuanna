@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, 
+user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<link rel="shortcut icon" href="image/logo.png">
+<title>响应式页面2</title>
+<link rel="stylesheet" href="xy.css"/>
+<script src="jquery.min.js"></script>
+<script>
+$(function(){
+	$("#icon").click(function(){
+		if($("#icon").is(":visible")){
+		
+			$("#nav").toggle(300);
+			};
+		
+		});
+		
+	$(window).resize(function(){
+		if(!$("#nav").is(":visible")){
+			$("#nav").attr('style',function(i,style){
+				return style.replace(/display[^;]+;?/g,'');
+				});
+			}
+		
+		});	
+	});
+
+</script>
+<script>
+function slideDiv(divID,height){//73
+	//obj是一个css的对象
+var obj=document.getElementById(divID).style;
+if(obj.height==''){
+   obj.height=height+"px";
+   obj.overflow="hidden";
+}else{
+  obj.height="";
+  obj.overflow="";
+
+}
+}
+</script>
+<script>
+function goTop(acceleration, time) {
+ acceleration = acceleration || 0.1;
+ time = time || 16;
+ 
+ var x1 = 0;
+ var y1 = 0;
+ var x2 = 0;
+ var y2 = 0;
+ var x3 = 0;
+ var y3 = 0;
+ 
+ if (document.documentElement) {
+  x1 = document.documentElement.scrollLeft || 0;
+  y1 = document.documentElement.scrollTop || 0;
+ }
+ if (document.body) {
+  x2 = document.body.scrollLeft || 0;
+  y2 = document.body.scrollTop || 0;
+ }
+ var x3 = window.scrollX || 0;
+ var y3 = window.scrollY || 0;
+ 
+ // 滚动条到页面顶部的水平距离
+ var x = Math.max(x1, Math.max(x2, x3));
+ // 滚动条到页面顶部的垂直距离
+ var y = Math.max(y1, Math.max(y2, y3));
+ 
+ // 滚动距离 = 目前距离 / 速度, 因为距离原来越小, 速度是大于 1 的数, 所以滚动距离会越来越小
+ var speed = 1 + acceleration;
+ window.scrollTo(Math.floor(x / speed), Math.floor(y / speed));
+ 
+ // 如果距离不为零, 继续调用迭代本函数
+ if(x > 0 || y > 0) {
+  var invokeFunction = "goTop(" + acceleration + ", " + time + ")";
+  window.setTimeout(invokeFunction, time);
+ }
+}
+</script>
+<script>
+function tBox(){
+	//h = $(window).height();
+	t = $(document).scrollTop();
+	
+	if(t > 150){
+		$(".tbox").fadeIn(300);
+	}else{
+		$(".tbox").fadeOut(300);
+	}
+}
+
+$(document).ready(function(e){
+	$("body").append('<div class="tbox"><a href="javascript:void(0)" id="gotop"></a></div>');
+	
+	tBox();
+
+	$("#gotop").click(function(){
+		$(document).scrollTop(0);	
+	})
+});
+
+$(window).scroll(function(e){
+	tBox();		
+})
+
+</script>
+</head>
+
+<body>
+<div id="main">
+	<header id="header">
+    	<hgroup>
+        <h1><img src="image/logo.gif" id="logo"></h1>
+        <h3>我的技能展示小家</h3>
+    </hgroup>
+ 	<!--<div id="icostyle="height:73px;overflow:hidden;"n">Ξ</div>-->
+    <!--<div class="navside" id="show" >-->
+    <nav id="nav">
+    	<ul>
+    	<li><a href="#">我的首页</a></li>
+        <li><a href="#">大学四年</a></li>
+        <li><a href="#">专业展示</a></li>
+        <li><a href="#">技能展示</a></li>
+        <li><a href="#">兼职经历</a></li>
+        <li><a href="#">给我留言</a></li>
+       
+        </ul>
+    </nav>
+    <div onClick="slideDiv('nav',100);return false;" class="more">↓更多</div>
+    <form id="form">
+    <input type="text" value="search" onFocus="this.value='';" onBlur="if(this.value==''){this.value='search';}"  id="s" class="search"/>
+    	<input type="submit" name="submit" id="sl" value="搜"/>
+        
+    </form>
+    </header>
+    
+    <article id="content">
+    	<section class="top">
+        	<h2>宝文理的青春岁月</h2>
+            <p>2016-07-11<span><i>in</i></span> <a> 宝鸡<a></p>
+        </section>
+        <section>
+        <img src="image/sample-image.jpg"/>
+        <p>　　宝鸡文理学院是一所以教师教育为主要特色，拥有哲学、经济学、法学、教育学、
+        文学、历史学、理学、工学、管理学、艺术学等多学科的省属普通本科高等学校。其
+        前身是1958年创办的宝鸡大学（本科），1963年因国家经济困难停办，1975年在此
+        基础上成立陕西师范大学宝鸡分校，1978年经国务院批准为宝鸡师范学院，1992年经
+        原国家教委批准，与1984年新设立的宝鸡大学合并，更名为宝鸡文理学院。学校位于
+        炎帝故里、周秦文化发祥地、陕西省第二大工业城市——宝鸡市，地处宝鸡国家高新技术
+        产业开发区，南靠秦岭，北临渭河，依山傍水，环境宜人。占地面积1100亩。</p>
+        </section>
+    	<section>
+        	<h2 class="same">美丽瞬间</h2>
+        	<div class="video">
+        	<video src="image/ok.flv" controls></video>
+        	</div>
+            <h2 class="same">优美音乐</h2>
+            <div id="music">
+             <audio controls preload="true">
+        		<source src="image/forrest gump suite_13043.mp3" type="audio/mpeg"/>
+            </audio>
+            </div>
+        </section>
+    </article>
+    <aside id="right">
+    <div class="c_s">
+    	<h2 class="same">青春记忆</h2>
+        <ul id="c_r">
+        	<li><a href="#">同窗好友 <span>(3)</span></a></li>
+            <li><a href="#">周边游记<span> (23)</span></a></li>
+            <li><a href="#">校园印象<span>(18)</span></a></li>
+        </ul>
+        </div>
+        <div class="c_s">
+        <h2 class="same">博客家园</h2>
+        </div>
+    </aside>
+    <footer id="footer"><a><i>宝鸡文理学院2016-2017年<span>All Right Reserved</span></a></i></footer>
+
+ <div class="tbox" style="display: block;">
+<a href="javascript:void(0)" id="gotop"><img src="image/top.jpg"/></a>
+</div>
+<!--<div class="tbox" style="display:block;"><a href="javascript:void(0)" id="gotop">Top↑</a></div>-->
+</body>
+</html>

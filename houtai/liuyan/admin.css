@@ -1,0 +1,47 @@
+/* CSS Document */
+*{
+  margin:0;
+  border:0;
+}
+.denglu{
+  width:400px;
+  height:400px;
+  background:red;
+  margin:0 auto;
+  margin-top:60px;
+}
+p{
+  font-size: 34px;
+font-family:宋体;
+ text-align: center;
+}
+form{
+  font-size: 20px;
+  font-family:宋体;
+  margin-left: 10px;
+  margin-top:30px;
+}
+form .name{
+  width:160px;
+  height:30px;
+  }
+form .mima{
+  width:160px;
+  height:30px;
+  margin:20px 0 20px 9px;
+  }
+form .yanzhengma{
+  width:160px;
+  height:30px;
+  }
+form .tijiao{
+  margin-top:30px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 宋体;
+}
+form img{
+  position: absolute;
+  margin-left: 10px;
+}
+
